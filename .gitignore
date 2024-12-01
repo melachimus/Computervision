@@ -1,2 +1,5 @@
 # Ignore all Data files
 Data
+
+# Ignore venv
+cv_class_env
