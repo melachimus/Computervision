@@ -26,43 +26,45 @@ def select_random_images(source_dir, dest_dir, sample_size):
     
     print(f"{len(selected_files)} Bilder wurden erfolgreich nach '{dest_dir}' kopiert.")
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\BSD\N"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\BSD\N_annotate"
+BASE_DIR = os.getcwd()
+
+source_directory = os.path.join("Data", "BSD", "N")
+destination_directory = os.path.join("Data", "BSD", "N_annotate")
 sample_size_bsd = 200
 select_random_images(source_directory, destination_directory, sample_size_bsd)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\BSD\P"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\BSD\P_annotate"
+source_directory = os.path.join("Data", "BSD", "P")
+destination_directory = os.path.join("Data", "BSD", "P_annotate")
 sample_size_bsd = 200
 select_random_images(source_directory, destination_directory, sample_size_bsd)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\crazing"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\crazing_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "crazing")
+destination_directory = os.path.join("Data", "Neu_input", "train", "crazing_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\inclusion"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\inclusion_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "inclusion")
+destination_directory = os.path.join("Data", "Neu_input", "train", "inclusion_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\patches"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\patches_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "patches")
+destination_directory = os.path.join("Data", "Neu_input", "train", "patches_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\pitted_surface"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\pitted_surface_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "pitted_surface")
+destination_directory = os.path.join("Data", "Neu_input", "train", "pitted_surface_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\rolled-in_scale"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\rolled-in_scale_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "rolled-in_scale")
+destination_directory = os.path.join("Data", "Neu_input", "train", "rolled-in_scale_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
-source_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\scratches"
-destination_directory = r"C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\NEU_Input\train\scratches_annotate"
+source_directory = os.path.join("Data", "Neu_input", "train", "scratches")
+destination_directory = os.path.join("Data", "Neu_input", "train", "scratches_annotate")
 sample_size_surface = 50
 select_random_images(source_directory, destination_directory, sample_size_surface)
 
