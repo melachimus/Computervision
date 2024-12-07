@@ -3,3 +3,6 @@ Data
 
 # Ignore venv
 cv_class_env
+
+# ignore runs
+runs

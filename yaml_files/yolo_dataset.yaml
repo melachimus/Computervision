@@ -1,0 +1,7 @@
+path: C:\Users\anohl\OneDrive\Dokumente\A_Uni_stuff\Albstadt\Semester 2\Computer_vision\Aufgaben\Data\Kugellager_Data\YOLO_Data # root directory
+
+train: train/images  # path to train images relative to 'path'
+val: val/images  # path to validation images relative to 'path'
+
+nc: 3  # number of classes
+names: ['defect', 'no defect', "contamination"]  # class names

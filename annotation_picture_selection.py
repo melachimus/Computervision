@@ -30,12 +30,12 @@ BASE_DIR = os.getcwd()
 
 source_directory = os.path.join("Data", "BSD", "N")
 destination_directory = os.path.join("Data", "BSD", "N_annotate")
-sample_size_bsd = 200
+sample_size_bsd = 300
 select_random_images(source_directory, destination_directory, sample_size_bsd)
 
 source_directory = os.path.join("Data", "BSD", "P")
 destination_directory = os.path.join("Data", "BSD", "P_annotate")
-sample_size_bsd = 200
+sample_size_bsd = 300
 select_random_images(source_directory, destination_directory, sample_size_bsd)
 
 source_directory = os.path.join("Data", "Neu_input", "train", "crazing")
